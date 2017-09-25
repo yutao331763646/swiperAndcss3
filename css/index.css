@@ -1,0 +1,1497 @@
+/**************  web by yutao on 2017-9-3  *******************/
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+.swiper-container {
+    width: 7.5rem;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.one {
+    width: 100%;
+    height: 100%;
+    background: url(../images/background.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.two {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url(../images/background2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.three {
+    width: 100%;
+    height: 100%;
+    background: url(../images/background3.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.yun {
+    display: inline-block;
+    width: .94rem;
+    height: .54rem;
+    margin-top: .74rem;
+    margin-left: 4.2rem;
+}
+
+.yunanimation {
+    -webkit-animation-name: yun;
+    animation-name: yun;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.yun2 {
+    width: 1.62rem;
+    height: .7rem;
+    margin-top: .72rem;
+    margin-left: .7rem;
+    position: absolute;
+}
+
+.yun2animation {
+    -webkit-animation-name: yun2;
+    animation-name: yun2;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.yun3 {
+    width: .76rem;
+    height: .43rem;
+    margin-top: 1.28rem;
+    margin-left: 1.2rem;
+    position: absolute;
+}
+
+.yun3animation {
+    -webkit-animation-name: yun;
+    animation-name: yun;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.yun22 {
+    display: inline-block;
+    width: .94rem;
+    height: .54rem;
+    margin-top: .74rem;
+    margin-left: 4.2rem;
+}
+
+.yun22animation {
+    -webkit-animation-name: yun;
+    animation-name: yun;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.yun222 {
+    width: 1.62rem;
+    height: .7rem;
+    margin-top: .72rem;
+    margin-left: .7rem;
+    position: absolute;
+}
+
+.yun222animation {
+    -webkit-animation-name: yun2;
+    animation-name: yun2;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.yun322 {
+    width: .76rem;
+    height: .43rem;
+    margin-top: 1.28rem;
+    margin-left: 1.2rem;
+    position: absolute;
+}
+
+.yun322animation {
+    -webkit-animation-name: yun;
+    animation-name: yun;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.yun33 {
+    display: inline-block;
+    width: .94rem;
+    height: .54rem;
+    margin-top: .74rem;
+    margin-left: 4.2rem;
+}
+
+.yun33animation {
+    -webkit-animation-name: yun;
+    animation-name: yun;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.yun233 {
+    width: 1.62rem;
+    height: .7rem;
+    margin-top: .72rem;
+    margin-left: .7rem;
+    position: absolute;
+}
+
+.yun233animation {
+    -webkit-animation-name: yun2;
+    animation-name: yun2;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.yun333 {
+    width: .76rem;
+    height: .43rem;
+    margin-top: 1.28rem;
+    margin-left: 1.2rem;
+    position: absolute;
+}
+
+.yun333animation {
+    -webkit-animation-name: yun;
+    animation-name: yun;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.content {
+    width: 3.8rem;
+    /* height: 5.92rem; */
+    height: 44.4%;
+    margin: .5rem auto;
+    position: relative;
+    z-index: 111;
+    border-radius: 6px;
+    /* background: #ff996d; */
+    /* background: #ff589d;
+    opacity: .1; */
+    /* box-shadow: 0px 0px 50px red; */
+    background: url(../images/aaa.png) no-repeat center center;
+    background-size: 3.8rem 5.92rem;
+    box-shadow: 0 0 35px rgba(209, 49, 0, .41);
+}
+
+.text {
+    display: flex;
+    width: 3.28rem;
+    height: .64rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.side {
+    font-size: .18rem;
+    color: #fff;
+}
+
+.middle {
+    font-size: .2rem;
+    color: #fff;
+}
+
+.backcolor {
+    overflow: hidden;
+    /* opacity: .3; */
+    width: 100%;
+    /* background: #fff; */
+    height: 100%;
+    position: absolute;
+    border-radius: 6px;
+}
+
+.foot {
+    /* width: 100%; */
+    width: 7.5rem;
+    /* height: 4.44rem; */
+    height: 33.3%;
+    position: absolute;
+    bottom: 0;
+    background: url(../images/foot.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.foot_tit {
+    margin-top: 1.36rem;
+    font-size: .42rem;
+    text-align: center;
+    color: #ff6325;
+    font-weight: bold
+}
+
+.foot_titl {
+    margin-top: .29rem;
+    font-size: .3rem;
+    text-align: center;
+    color: #ff6325;
+}
+
+#canvas {
+    margin-top: -1.2rem;
+}
+
+.fly {
+    width: 100%;
+    height: 1.02rem;
+    padding: 0 .26rem;
+    position: absolute;
+    bottom: 1rem;
+    -webkit-transition-delay: 0;
+    transition-delay: 0;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 35px rgba(209, 49, 0, .41);
+}
+
+.flyanimation {
+    -webkit-animation-name: fly;
+    animation-name: fly;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.fly1 {
+    width: 100%;
+    height: 1.02rem;
+    padding: 0 .26rem;
+    position: absolute;
+    bottom: 1rem;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 35px rgba(209, 49, 0, .41);
+}
+
+.fly1animation {
+    -webkit-animation-name: fly1;
+    animation-name: fly1;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.fly2 {
+    width: 100%;
+    height: 1.02rem;
+    padding: 0 .26rem;
+    position: absolute;
+    bottom: 1rem;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 35px rgba(209, 49, 0, .41);
+}
+
+.fly2animation {
+    -webkit-animation-name: fly2;
+    animation-name: fly2;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.fly_tit {
+    width: .56rem;
+    height: .5rem;
+    margin-top: -.25rem;
+    position: absolute;
+    top: 50%;
+    border-radius: 4px;
+    background: -webkit-linear-gradient(left, #fb9958, #ffc86b);
+    background: -o-linear-gradient(right, #fb9958, #ffc86b);
+    background: -moz-linear-gradient(right, #fb9958, #ffc86b);
+}
+
+.fly_right {
+    display: flex;
+    flex-direction: column;
+    width: 2.62rem;
+    height: .5rem;
+    margin-top: -.25rem;
+    position: absolute;
+    top: 50%;
+    right: .26rem;
+}
+
+.fly_right span {
+    display: inline-block;
+    position: absolute;
+}
+
+.fly_right .add {
+    margin-top: -.07rem;
+    font-size: .181rem;
+    color: #ff6325;
+}
+
+.lineone {
+    width: 2.54rem;
+    height: .06rem;
+    bottom: .12rem;
+    border-radius: 25px;
+    background: #ffc982;
+}
+
+.linetwo {
+    width: 1.52rem;
+    height: .06rem;
+    bottom: 0;
+    border-radius: 25px;
+    background: #ffc982;
+}
+
+.ification {
+    display: flex;
+    width: 100%;
+    height: 1.2rem;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-between;
+}
+
+.ification span {
+    display: inline-block;
+    width: 33%;
+    height: 1.2rem;
+    font-size: .24rem;
+    line-height: 1.6rem;
+    text-align: center;
+    color: #ff6325;
+}
+
+.ification .pic {
+    background: url(../images/pic.png) no-repeat 48% 14%;
+    background-size: .4rem .4rem;
+}
+
+.ification .music {
+    background: url(../images/music.png) no-repeat 48% 14%;
+    background-size: .4rem .4rem;
+}
+
+.ification .video {
+    background: url(../images/video.png) no-repeat 48% 14%;
+    background-size: .4rem .4rem;
+}
+
+.note1 {
+    width: .5rem;
+    height: .54rem;
+    margin-top: -5rem;
+    margin-left: 6rem;
+    position: absolute;
+}
+
+.note1animation {
+    -webkit-animation-name: note1;
+    animation-name: note1;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.note2 {
+    width: .26rem;
+    height: .42rem;
+    margin-top: -1.5rem;
+    margin-left: 1rem;
+    position: absolute;
+}
+
+.note2animation {
+    -webkit-animation-name: note2;
+    animation-name: note2;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.skip {
+    display: block;
+    width: 1.2rem;
+    height: .8rem;
+    font-size: .28rem;
+    line-height: .8rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.skip2 {
+    display: block;
+    width: 1.2rem;
+    height: .8rem;
+    font-size: .28rem;
+    line-height: .8rem;
+    position: absolute;
+    top: 0;
+    right: 0rem;
+    text-align: center;
+    color: #fff;
+}
+
+.skip3 {
+    display: block;
+    width: 1.2rem;
+    height: .8rem;
+    font-size: .28rem;
+    line-height: .8rem;
+    position: fixed;
+    top: 0;
+    right: -15rem;
+    text-align: center;
+    color: #fff;
+}
+
+.polygon {
+    width: .26rem;
+    height: .36rem;
+    position: absolute;
+    top: 1.9rem;
+    left: .76rem;
+}
+
+.polygonanimation {
+    -webkit-animation-name: polygon;
+    animation-name: polygon;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.polygon2 {
+    width: .38rem;
+    height: .52rem;
+    position: absolute;
+    top: 5.3rem;
+    left: .75rem;
+}
+
+.polygon2animation {
+    -webkit-animation-name: polygon;
+    animation-name: polygon;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.polygon3 {
+    width: .32rem;
+    height: .48rem;
+    position: absolute;
+    top: 3.8rem;
+    right: 1.46rem;
+}
+
+.polygon3animation {
+    -webkit-animation-name: polygon;
+    animation-name: polygon;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.rectangle {
+    width: .58rem;
+    height: .65rem;
+    position: absolute;
+    top: 2.8rem;
+    right: 2.76rem;
+}
+
+.rectangleanimation {
+    -webkit-animation-name: righttops;
+    animation-name: righttops;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.rectangle2 {
+    width: .58rem;
+    height: .65rem;
+    position: absolute;
+    top: 4.72rem;
+    right: 2.07rem;
+}
+
+.rectangle2animation {
+    -webkit-animation-name: righttops;
+    animation-name: righttops;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.ben1 {
+    width: .9rem;
+    height: 1.06rem;
+    position: absolute;
+    top: 3.28rem;
+    left: 1.5rem;
+}
+
+.ben1animation {
+    -webkit-animation-name: benzi;
+    animation-name: benzi;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.video2 {
+    width: 1.28rem;
+    height: 1.54rem;
+    margin-left: -.64rem;
+    position: absolute;
+    top: 44.4%;
+    left: 50%;
+}
+
+.videoanimation {
+    -webkit-animation-name: lefttop;
+    animation-name: lefttop;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.notobvious {
+    position: absolute;
+    top: 4.63rem;
+    left: 0;
+}
+
+.article {
+    width: 1.26rem;
+    height: 1.55rem;
+    position: absolute;
+    top: 45%;
+    right: 2.46rem;
+}
+
+.articleanimation {
+    -webkit-animation-name: righttop;
+    animation-name: righttop;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.pyramid {
+    width: 1.05rem;
+    height: 1.04rem;
+    position: absolute;
+    top: 50%;
+    left: 2.5rem;
+}
+
+.pyramidanimation {
+    -webkit-animation-name: lefttop2;
+    animation-name: lefttop2;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.mobile {
+    width: 4.79rem;
+    height: .73rem;
+    margin-left: -2.395rem;
+    position: absolute;
+    z-index: 111;
+    top: 57%;
+    left: 50%;
+}
+
+.foot .foot_tit2 {
+    margin-top: 1.36rem;
+    font-size: .42rem;
+    font-weight: bold;
+    text-align: center;
+    color: #ff5d5c;
+}
+
+.foot .foot_titl2 {
+    margin-top: .29rem;
+    font-size: .3rem;
+    text-align: center;
+    color: #ff5d5c;
+}
+
+.foot .foot_titl22 {
+    font-size: .3rem;
+    text-align: center;
+    color: #ff5d5c;
+}
+
+.content .list {
+    width: 100%;
+    position: absolute;
+}
+
+.list .list1 {
+    width: 2.58rem;
+    height: 1.56rem;
+    margin: .33rem auto;
+    border-bottom: 2px solid #ff9c00;
+}
+
+.list1 .list1_top {
+    height: 1.04rem;
+    border-radius: 4px;
+    background: #ffda9d;
+}
+
+.list1 .list1_mid {
+    width: 2.39rem;
+    height: .11rem;
+    margin-top: .05rem;
+    border-radius: 2px;
+    background: #ffc450;
+}
+
+.list1 .list1_bot {
+    display: flex;
+    width: 100%;
+    height: .11rem;
+    margin-top: .08rem;
+    justify-content: space-between;
+}
+
+.bot_left,
+.bot_right {
+    width: .79rem;
+    height: .11rem;
+}
+
+.backfff {
+    background: #fff;
+}
+
+.felxs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.felxs .left1 {
+    width: .22rem;
+    height: .11rem;
+    border-radius: 1.5px;
+    background: #ff9c00;
+}
+
+.felxs .left2 {
+    width: .5rem;
+    height: .11rem;
+    border-radius: 1.5px;
+    background: #ff9c00;
+}
+
+.list2 {
+    display: flex;
+    flex-direction: column;
+    width: 2.58rem;
+    height: 1.21rem;
+    margin: -.16rem auto;
+    -webkit-animation-name: list2;
+    animation-name: list2;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    opacity: 0;
+    justify-content: space-between;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.list2 .list2_top {
+    width: 100%;
+    height: 1.04rem;
+    border-radius: 2px;
+    background: #ffe6c6;
+}
+
+.list2 .list2_bot {
+    width: 100%;
+    height: .11rem;
+    border-radius: 2px;
+    background: #ffc755;
+}
+
+.foot .foot_tit3 {
+    margin-top: 1.36rem;
+    font-size: .42rem;
+    font-weight: bold;
+    text-align: center;
+    color: #ff9c00;
+}
+
+.foot .foot_titl3 {
+    margin-top: .29rem;
+    font-size: .3rem;
+    text-align: center;
+    color: #ff9c00;
+}
+
+.start {
+    width: 3.19rem;
+    height: .71rem;
+    margin: .5rem auto;
+    font-size: .32rem;
+    font-weight: bold;
+    line-height: .71rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    background: #ffb400;
+}
+
+.smallglob {
+    width: .42rem;
+    height: .42rem;
+    position: absolute;
+    top: 3.11rem;
+    right: .7rem;
+}
+
+.satellite {
+    width: 1.27rem;
+    height: .64rem;
+    position: absolute;
+    top: 2.28rem;
+    left: .35rem;
+}
+
+.good {
+    width: 1.19rem;
+    height: 1.22rem;
+    margin-left: -.595rem;
+    position: absolute;
+    z-index: 222;
+    top: 6.5rem;
+    left: 50%;
+}
+
+.goodanimation {
+    -webkit-animation-name: good;
+    animation-name: good;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.star1 {
+    width: .31rem;
+    height: .3rem;
+    position: absolute;
+    top: 2.37rem;
+    left: 2.43rem;
+}
+
+.star1animation {
+    -webkit-animation-name: ellipse;
+    animation-name: ellipse;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.star2 {
+    width: .31rem;
+    height: .3rem;
+    position: absolute;
+    top: 2.4rem;
+    right: 1.38rem;
+}
+
+.star2animation {
+    -webkit-animation-name: ellipse;
+    animation-name: ellipse;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.star3 {
+    width: .31rem;
+    height: .3rem;
+    position: absolute;
+    top: 4.82rem;
+    left: 1.75rem;
+}
+
+.star3animation {
+    -webkit-animation-name: ellipse;
+    animation-name: ellipse;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.star4 {
+    width: .31rem;
+    height: .3rem;
+    position: absolute;
+    top: 5.78rem;
+    right: 1.1rem;
+}
+
+.star4animation {
+    -webkit-animation-name: ellipse;
+    animation-name: ellipse;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.circular {
+    width: .38rem;
+    height: .38rem;
+    position: absolute;
+    top: 5.66rem;
+    left: 1.05rem;
+    opacity: .5;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 15px #fff;
+}
+
+.circularanimation {
+    -webkit-animation-name: circular2;
+    animation-name: circular2;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.circular2 {
+    width: .54rem;
+    height: .54rem;
+    position: absolute;
+    top: 3.58rem;
+    left: .15rem;
+}
+
+.circular2animation {
+    -webkit-animation-name: circular2;
+    animation-name: circular2;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.circular3 {
+    width: .46rem;
+    height: .46rem;
+    position: absolute;
+    top: 5.5rem;
+    left: .99rem;
+}
+
+.circular3animation {
+    -webkit-animation-name: circular2;
+    animation-name: circular2;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.ellipse {
+    width: 5rem;
+    height: 1.45rem;
+    margin-left: -2.5rem;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+}
+
+.ellipseanimation {
+    -webkit-animation-name: ellipse;
+    animation-name: ellipse;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.ellipse2 {
+    width: 5rem;
+    height: 1.45rem;
+    margin-left: -2.5rem;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+}
+
+.ellipse2animation {
+    -webkit-animation-name: ellipse2;
+    animation-name: ellipse2;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.ellipse3 {
+    width: 5rem;
+    height: 1.45rem;
+    margin-left: -2.5rem;
+    position: absolute;
+    top: 7.5rem;
+    left: 50%;
+}
+
+.ellipse3animation {
+    -webkit-animation-name: ellipse;
+    animation-name: ellipse;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.cebian {
+    width: .92rem;
+    height: 2.37rem;
+    position: absolute;
+    top: 3.52rem;
+    right: 0;
+}
+
+.cebiananimation {
+    -webkit-animation-name: ellipse;
+    animation-name: ellipse;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.cebian2 {
+    width: .85rem;
+    height: 2.31rem;
+    position: absolute;
+    top: 3.67rem;
+    left: 0;
+}
+
+.cebian2animation {
+    -webkit-animation-name: ellipse;
+    animation-name: ellipse;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.ccc {
+    width: 4.97rem;
+    height: .8rem;
+    margin-left: -2.35rem;
+    position: absolute;
+    z-index: 111;
+    bottom: 38.6%;
+    left: 50%;
+}
+
+.cccanimation {
+    -webkit-animation-name: ccc;
+    animation-name: ccc;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.fly_tit .kaixin {
+    width: .36rem;
+    height: .36rem;
+    margin-top: -.18rem;
+    margin-left: -.18rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.fly1_top {
+    height: .57rem;
+    margin-top: .15rem;
+}
+
+.fly1_top img {
+    float: left;
+    width: 1.46rem;
+    height: .57rem;
+    position: absolute;
+}
+
+.fly1top_right {
+    display: flex;
+    float: right;
+    flex-direction: column;
+    width: 48%;
+    height: .5rem;
+    margin-top: .04rem;
+    justify-content: space-between;
+}
+
+.fly1top_right div {
+    width: 100%;
+    height: .06rem;
+    border-radius: 25px;
+    background: #ffc579;
+}
+
+.fly2_bot {
+    width: 100%;
+    height: .06rem;
+    margin-top: .12rem;
+    border-radius: 25px;
+    background: #ffc982;
+}
+
+.rocketfly_wrap {
+    width: 3.33rem;
+    height: 6.03rem;
+    position: absolute;
+    z-index: 222;
+    top: 2.05rem;
+    right: 1.35rem;
+}
+
+.rocketfly_wrapimg {
+    overflow: hidden;
+    width: 3.33rem;
+    height: 0rem;
+    position: absolute;
+    z-index: 222;
+    bottom: 0rem;
+}
+
+.rocketfly_wrapimganimation {
+    -webkit-animation-name: rocketflywrap;
+    animation-name: rocketflywrap;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.rocketfly {
+    width: 3.33rem;
+    height: 6.03rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.rocket {
+    width: 1.1rem;
+    height: 1.17rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 2.9rem;
+}
+
+.list_top {
+    width: 3.06rem;
+    height: 1.88rem;
+    margin-left: -1.53rem;
+    position: absolute;
+    z-index: 333;
+    top: 2.83rem;
+    left: 50%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background: #fff2f3;
+}
+
+.list_top img {
+    display: block;
+    width: 2.59rem;
+    height: 1.39rem;
+    margin: .32rem auto;
+}
+
+.list_bot {
+    width: 3.06rem;
+    height: 3.37rem;
+    margin-left: -1.53rem;
+    position: absolute;
+    top: 4.71rem;
+    left: 50%;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background: #fff2f3;
+}
+
+.list_midd {
+    width: 2.59rem;
+    height: 1.85rem;
+    margin: auto;
+    padding-top: .17rem;
+    border-top: 2px solid #ff9e00;
+}
+
+.list_midd img {
+    width: 100%;
+    height: 1.54rem;
+}
+
+.list_bott {
+    width: 2.59rem;
+    height: 1.33rem;
+    margin: auto;
+    border-top: 2px solid #ff9e00;
+}
+
+.lsit_box {
+    width: 2.58rem;
+    height: 1.04rem;
+    margin-top: .13rem;
+    border-radius: 4px;
+    background: #ffe7cb;
+}
+
+.list_line {
+    width: 2.58rem;
+    height: .11rem;
+    margin-top: .06rem;
+    border-radius: 2px;
+    background: #ffc75a;
+}
+
+.rocket3 {
+    width: 8rem;
+    height: 1.41rem;
+    position: absolute;
+    z-index: 233;
+    top: 4.9rem;
+    left: -1.8rem;
+    transform: rotate(45deg);
+}
+
+.rocket3animation {
+    -webkit-animation-name: rocket3;
+    animation-name: rocket3;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.wuwrap {
+    width: 2.52rem;
+    height: 1.69rem;
+    position: absolute;
+    left: 0;
+    top: 3.93rem;
+}
+
+.wuimg {
+    width: 0rem;
+    height: 1.69rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.wuimganimation {
+    -webkit-animation-name: wuimg;
+    animation-name: wuimg;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}
+
+.wu {
+    width: 2.52rem;
+    height: 1.69rem;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.yinfu {
+    width: .38rem;
+    height: .36rem;
+    position: absolute;
+    top: 5.26rem;
+    left: 1.63rem;
+}
+
+.yinfuanimation {
+    -webkit-animation-name: yinfu;
+    animation-name: yinfu;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 和 Chrome */
+}

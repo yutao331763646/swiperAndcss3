@@ -1,0 +1,321 @@
+/***********************通用基础样式************************/
+
+
+/*目前要兼容的浏览器的hack方法*/
+
+
+/*样式初始化*/
+
+
+/*屏幕分辨率与字体大小比值为7.5*/
+
+@media only screen and (min-width: 1025px),
+only screen and (min-device-width:1025px) {
+    html {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 1024px),
+only screen and (max-device-width:1024px) {
+    html {
+        font-size: 136.5333px;
+    }
+}
+
+@media only screen and (max-width: 960px),
+only screen and (max-device-width:960px) {
+    html {
+        font-size: 128px;
+    }
+}
+
+@media only screen and (max-width: 800px),
+only screen and (max-device-width:800px) {
+    html {
+        font-size: 106.6667px;
+    }
+}
+
+@media only screen and (max-width: 768px),
+only screen and (max-device-width:768px) {
+    html {
+        font-size: 102.4px;
+    }
+}
+
+@media only screen and (max-width: 760px),
+only screen and (max-device-width:760px) {
+    html {
+        font-size: 101.3333px;
+    }
+}
+
+@media only screen and (max-width: 720px),
+only screen and (max-device-width:720px) {
+    html {
+        font-size: 96px;
+    }
+}
+
+@media only screen and (max-width: 680px),
+only screen and (max-device-width:680px) {
+    html {
+        font-size: 90.6667px;
+    }
+}
+
+@media only screen and (max-width: 640px),
+only screen and (max-device-width:640px) {
+    html {
+        font-size: 85.3333px;
+    }
+}
+
+@media only screen and (max-width: 600px),
+only screen and (max-device-width:600px) {
+    html {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 560px),
+only screen and (max-device-width:560px) {
+    html {
+        font-size: 74.6667px;
+    }
+}
+
+@media only screen and (max-width: 520px),
+only screen and (max-device-width:520px) {
+    html {
+        font-size: 69.3333px;
+    }
+}
+
+@media only screen and (max-width: 480px),
+only screen and (max-device-width:480px) {
+    html {
+        font-size: 64px;
+    }
+}
+
+@media only screen and (max-width: 414px),
+only screen and (max-device-width:414px) {
+    html {
+        font-size: 55.2px;
+    }
+}
+
+@media only screen and (max-width: 400px),
+only screen and (max-device-width:400px) {
+    html {
+        font-size: 53.3333px;
+    }
+}
+
+@media only screen and (max-width: 375px),
+only screen and (max-device-width:375px) {
+    html {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 360px),
+only screen and (max-device-width:360px) {
+    html {
+        font-size: 48px;
+    }
+}
+
+@media only screen and (max-width: 320px),
+only screen and (max-device-width:320px) {
+    html {
+        font-size: 42.6667px;
+    }
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*通用*/
+
+body,
+select,
+img,
+input,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    border-style: none;
+}
+
+
+/*解决手机中点击的时候会出现奇怪的背景 */
+
+a,
+a:hover,
+a:visited,
+a:link,
+a:active {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    background: none;
+    text-decoration: none;
+}
+
+input,
+input:hover,
+input:visited,
+input:active {
+    -webkit-tap-highlight-color: transparent;
+    border: none;
+    outline: none;
+    background: none;
+    text-decoration: none;
+    -webkit-text-decoration: none;
+    -webkit-appearance: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfloat:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    zoom: 1
+}
+
+
+/*动画模板*/
+
+@keyframes name {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    100% {
+        transfrom: translate(-10px, 0px) rotate(-10deg);
+    }
+}
+
+.shake {
+    animation-name: name;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+
+/*
+    模态框的样式区域
+*/
+
+.modal {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.modal_in {
+    position: absolute;
+    width: 7rem;
+    height: 2.5rem;
+    bottom: 6rem;
+    left: 0;
+    right: 0;
+    /* padding:1rem; */
+    margin: auto;
+    background-color: rgba(1, 1, 1, 0.4);
+    border-radius: 0.1333rem;
+}
+
+.modal p {
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+.modal svg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 1rem;
+    margin: auto;
+}
+
+.modal img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 1rem;
+    margin: auto;
+}
+
+
+/*
+    提交中
+*/
+
+.submiting {}
+
+
+/*
+    提交成功
+*/
+
+.succ {}
+
+.succ img {
+    width: 4.5rem;
+    height: 4.5rem;
+    bottom: 0.3rem;
+}
+
+{}
+
+.err img {
+    width: 4rem;
+    height: 4rem;
+    bottom: 0.5rem;
+}
